@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(75, 2, 2);
+    color: gray;
+    font-family: "Grenze Gotisch", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+button {
+    background-color: black;
+    color: grey;
+    font-family: "Grenze Gotisch", serif;
+}
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display: block;
+}
+main {
+    text-align: center;
+    max-width: 90%;
+}
+img{
+    max-width: 90%;
+}
